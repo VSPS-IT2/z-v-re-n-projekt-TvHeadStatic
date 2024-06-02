@@ -21,46 +21,7 @@
 
 
     <div class="container"> 
-        <main> 
-            <article> 
-                <h2>KITTIES</h2> 
-                <p> 
-                    today 
-                </p> 
-                <p> 
-                    cute cats
-                </p> 
-            </article> 
-    
-            <article> 
-                <h2>Men</h2> 
-                <p> 
-                    today
-                </p> 
-                <p> 
-                 I fucking lvoe men
-                </p> 
-            </article> 
-    
-            <article> 
-                <h2>idfk</h2> 
-                <p> 
-                    yesterday
-                </p> 
-                <p> 
-                   i want to die ;3 
-                </p> 
-            </article> 
-    
-            <article> 
-                <h2>i hate myself</h2> 
-                <p> 
-                    [redacted] 
-                </p> 
-                <p> 
-                    ok soo
-                </p> 
-            </article> 
+        <main id="theseposts"> 
         </main> 
     </div> 
     
@@ -69,7 +30,10 @@
     </footer> 
     </body>
 
-
+    <script>
+        var array_of_posts = `{{ current_posts }}`
+    </script>
+    <script src="static/index.js"></script>
 
 </body>
 
