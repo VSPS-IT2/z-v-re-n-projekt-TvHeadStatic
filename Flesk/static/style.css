@@ -1,0 +1,108 @@
+body { 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0; 
+    padding: 0; 
+    background-color: #5b435e;
+} 
+
+header { 
+    background-color: transparent; 
+    color: #e6e6e6; 
+    text-align: center; 
+    background-image: 
+    linear-gradient(to right, #7a1a1a,#b9821b,#b8b829,#1c7e1c,#242486,#542874,#884188, #7a1a1a); 
+  animation: rainbow-animation 35s linear infinite;
+  }
+
+  @keyframes rainbow-animation {
+    to {
+        background-position: 450vh;
+    }
+  } 
+
+  header:hover{
+    color: #adadad;
+    background-image: 
+    linear-gradient(to right, #470a0a,#69480a,#747412,#094b09,#11115f,#3c115a,#5f1b5f, #470a0a); 
+  animation: rainbow-animation 35s linear infinite;
+  }
+
+  @keyframes rainbow-animation {
+    to {
+        background-position: 450vh;
+    }
+  } 
+  
+ 
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 95%; 
+    margin: 0 auto; 
+    padding: 2em; 
+} 
+
+article p { 
+    text-align: center; 
+} 
+
+main { 
+    flex: 2; 
+} 
+
+article {
+    background-color: #9b5c9b;
+    margin-top: 2.5em;
+    padding: 2.5em 2em; 
+    text-align: center;
+    border-radius: 1em;
+} 
+
+
+footer { 
+    background-color: #4b334e; 
+    color: #e6e6e6; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    height: 4.7em;
+    margin-top: .8em;
+} 
+footer:hover{
+ opacity: 0;
+}    
+
+.fourOfour {
+margin-top: 2em;
+text-align: center;
+color: white;
+font-size: 2.5em;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+a:hover{
+    color: #adadad;
+}
+
+.post{
+    margin-top: 10em;
+    text-align: center;
+    background-color: #9b5c9b;
+    font-size: 1.5em;
+}
+.post:hover{
+    background-color: #582958;
+}
+
+.yourmo{
+    align-content: right;
+    text-align: center;
+    background-color: #9b5c9b;
+    font-size: 1.5em;
+    border-radius: 1em;
+    padding: 0.25em;
+}
